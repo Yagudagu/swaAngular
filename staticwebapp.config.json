@@ -7,5 +7,16 @@
       "route": "/login",
       "redirect": "/.auth/login/aad"
     }
-  ]
+  ],
+  "auth": {
+    "identityProviders": {
+      "azureActiveDirectory": {
+        "registration": {
+          "openIdIssuer": "https://login.microsoftonline.com/ebe0363c-d7a2-457a-90dd-34ff9d48b170/v2.0",
+          "clientIdSettingName": "4394b1e7-ee85-45d2-afd4-7ab54a422e36",
+          "clientSecretSettingName": "VpG7Q~miRzCKpUZUlQk._8fOeo_NFpmIxtJJ2"
+        }
+      }
+    }
+  }
 }
