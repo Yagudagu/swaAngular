@@ -11,10 +11,11 @@
   "auth": {
     "identityProviders": {
       "azureActiveDirectory": {
+        "userDetailsClaim": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
         "registration": {
-          "openIdIssuer": "https://login.microsoftonline.com/ebe0363c-d7a2-457a-90dd-34ff9d48b170/v2.0",
-          "clientIdSettingName": "4394b1e7-ee85-45d2-afd4-7ab54a422e36",
-          "clientSecretSettingName": "VpG7Q~miRzCKpUZUlQk._8fOeo_NFpmIxtJJ2"
+          "openIdIssuer": "https://login.microsoftonline.com/9b8406ec-0d62-411b-a087-7aa02aa265ec",
+          "clientIdSettingName": "86fad7ea-f822-4e52-a119-a91a5720d839",
+          "clientSecretSettingName": "l2Z7Q~WJ_F-WVHqOSHFP0mLd_iluN0ogXzP7s"
         }
       }
     }
