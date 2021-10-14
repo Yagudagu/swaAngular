@@ -8,12 +8,12 @@
       "redirect": "/.auth/login/aad"
     }
   ],
+
   "auth": {
     "identityProviders": {
       "azureActiveDirectory": {
-        "userDetailsClaim": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
         "registration": {
-          "openIdIssuer": "https://login.microsoftonline.com/9b8406ec-0d62-411b-a087-7aa02aa265ec",
+          "openIdIssuer": "https://login.microsoftonline.com/9b8406ec-0d62-411b-a087-7aa02aa265ec/v2.0",
           "clientIdSettingName": "86fad7ea-f822-4e52-a119-a91a5720d839",
           "clientSecretSettingName": "l2Z7Q~WJ_F-WVHqOSHFP0mLd_iluN0ogXzP7s"
         }
