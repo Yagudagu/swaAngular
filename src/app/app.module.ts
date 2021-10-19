@@ -7,11 +7,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { SecondComponent } from './components/second/second.component';
 import { RouterModule, Routes } from '@angular/router';
 import { TwoComponent } from './components/two/two.component';
+import { ThreeComponent } from './components/three/three.component';
 
 const appRoutes: Routes = [{ path: '', component: MainComponent }];
 
 @NgModule({
-  declarations: [AppComponent, MainComponent, SecondComponent, TwoComponent],
+  declarations: [AppComponent, MainComponent, SecondComponent, TwoComponent, ThreeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

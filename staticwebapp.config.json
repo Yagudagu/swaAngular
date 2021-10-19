@@ -3,6 +3,7 @@
     "rewrite": "/index.html"
   },
   "routes": [
+    { "route": "/", "allowedRoles": ["anonymous"] },
     {
       "route": "/login",
       "redirect": "/.auth/login/aad"
@@ -14,6 +15,10 @@
     {
       "route": "/two",
       "allowedRoles": ["authenticated"]
+    },
+    {
+      "route": "/*",
+      "allowedRoles": ["anonymous"]
     }
   ],
   "responseOverrides": {

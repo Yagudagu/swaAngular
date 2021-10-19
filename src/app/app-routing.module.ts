@@ -4,10 +4,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { MainComponent } from './components/main/main.component';
 import { SecondComponent } from './components/second/second.component';
 import { TwoComponent } from './components/two/two.component';
+import { ThreeComponent } from './components/three/three.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent },
   { path: 'two', component: TwoComponent },
+  { path: 'three', component: ThreeComponent },
 ];
 
 @NgModule({
