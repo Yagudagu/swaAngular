@@ -10,9 +10,18 @@
     {
       "route": "/logout",
       "redirect": "/.auth/logout"
+    },
+    {
+      "route": "/two",
+      "allowedRoles": ["authenticated"]
     }
   ],
-
+  "responseOverrides": {
+    "401": {
+      "redirect": "/login",
+      "statusCode": 302
+    }
+  },
   "auth": {
     "identityProviders": {
       "azureActiveDirectory": {
