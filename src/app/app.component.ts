@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: `<a href="/login">Login, does it work?</a
-    ><a href="/logout">Logout, let's try it</a>`,
+  templateUrl: './components/main/main.component.html',
+  styleUrls: ['./components/main/main.component.css'],
 })
 export class AppComponent {
   value = 'World';
