@@ -12,10 +12,17 @@ import { ThreeComponent } from './components/three/three.component';
 const appRoutes: Routes = [{ path: '', component: MainComponent }];
 
 @NgModule({
-  declarations: [AppComponent, MainComponent, SecondComponent, TwoComponent, ThreeComponent],
+  declarations: [
+    AppComponent,
+    MainComponent,
+    SecondComponent,
+    TwoComponent,
+    ThreeComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+
     RouterModule.forRoot(appRoutes, { enableTracing: true }),
   ],
   bootstrap: [AppComponent],
